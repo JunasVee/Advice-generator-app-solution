@@ -19,13 +19,13 @@ body {
 }
 
 .card {
-    height: 350px;
-    width: 550px;
+    height: 340px;
+    width: 600px;
     background: hsl(217, 19%, 24%);
+    padding: 0 3%;
     border-radius: 1em;
     text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -34,7 +34,7 @@ body {
     color: hsl(150, 100%, 66%);
     letter-spacing: 0.3em;
     font-size: 14px;
-    padding: 5% 0;
+    padding: 8% 0;
 }
 
 .advice {
@@ -48,8 +48,11 @@ body {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    transform: translateY(90%);
+    position: absolute;
     cursor: pointer;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,232%);
     transition: box-shadow 0.2s ease-in-out;
 }
 
